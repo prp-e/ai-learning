@@ -4,10 +4,12 @@ import matplotlib.pyplot as plt
 
 dataframe = pd.read_fwf('dataset.txt') 
 
+print dataframe
+
 x_values = dataframe[['Brain']]
 y_values = dataframe[['Body']]
 
-body_reg = linear_model.LinearRegression
+body_reg = linear_model.LinearRegression()
 
 body_reg.fit(x_values, y_values)
 
