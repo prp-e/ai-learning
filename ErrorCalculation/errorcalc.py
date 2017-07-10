@@ -18,9 +18,18 @@ body_reg.fit(x_values, y_values)
 x = dataframe['x'].values 
 y = dataframe['y'].values
 
+dataset_error = mean_squared_error(x, y)
+prediction_error = mean_squared_error(x_values, body_reg.predict(y_values))
 
-print "Error is: " 
-print mean_squared_error(x, y)
+
+print "Error of Dataset: " 
+print dataset_error 
+
+print "Error of Prediction: "
+print prediction_error 
+
+print "Difference: "
+print prediction_error - dataset_error
 
 plt.scatter(x_values, y_values) 
 plt.plot(x_values, body_reg.predict(y_values)) 
