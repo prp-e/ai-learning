@@ -5,3 +5,4 @@ In this repository, I put everything I learn about AI and machine learning. You 
 ## Projects list 
 
 * [Prediction](./Prediction) - Prediction of body weight using brain weight. 
+* [ErrorCalculation](./ErrorCalculation) - Calculation of dataset error and prediction error. 
