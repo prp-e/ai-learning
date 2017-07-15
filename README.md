@@ -6,3 +6,4 @@ In this repository, I put everything I learn about AI and machine learning. You 
 
 * [Prediction](./Prediction) - Prediction of body weight using brain weight. 
 * [ErrorCalculation](./ErrorCalculation) - Calculation of dataset error and prediction error. 
+* [Neural Netowrk](./neural-network) - A simple neural network implemented using numpy
