@@ -25,7 +25,7 @@ np.random.seed(1)
 s0 = 2*np.random.random((3, 4)) - 1
 s1 = 2*np.random.random((4, 1)) - 1
 
-for i in xrange(60000):
+for i in range(60000):
     l0 = inputs 
     l1 = sigmoid(np.dot(l0, s0))
     l2 = sigmoid(np.dot(l1, s1))
